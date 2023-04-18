@@ -14,7 +14,7 @@
 export default {
     methods: {
         hack_post: function(){
-            this.blog_content= this.blog_content +"iwas injected";
+            this.blog_content= this.blog_content +"i was injected";
         },
         toggle_post: function (){
             this.show_post = !this.show_post
